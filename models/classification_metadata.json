@@ -1,0 +1,90 @@
+{
+  "best_model_name": "XGBoost",
+  "class_names": [
+    "Eligible",
+    "High_Risk",
+    "Not_Eligible"
+  ],
+  "feature_columns": [
+    "gender",
+    "marital_status",
+    "education",
+    "employment_type",
+    "company_type",
+    "house_type",
+    "existing_loans",
+    "emi_scenario",
+    "age",
+    "monthly_salary",
+    "years_of_employment",
+    "monthly_rent",
+    "family_size",
+    "dependents",
+    "school_fees",
+    "college_fees",
+    "travel_expenses",
+    "groceries_utilities",
+    "other_monthly_expenses",
+    "current_emi_amount",
+    "credit_score",
+    "bank_balance",
+    "emergency_fund",
+    "requested_amount",
+    "requested_tenure",
+    "requested_emi",
+    "total_monthly_expenses",
+    "total_monthly_obligations",
+    "disposable_income",
+    "debt_to_income_ratio",
+    "expense_to_income_ratio",
+    "affordability_ratio",
+    "requested_to_income_ratio",
+    "requested_burden_ratio",
+    "employment_stability_score",
+    "income_per_dependent",
+    "emergency_fund_months",
+    "savings_to_income_ratio",
+    "credit_score_norm"
+  ],
+  "validation_metrics": {
+    "Logistic Regression": {
+      "accuracy": 0.8441833333333333,
+      "precision_macro": 0.8355595200566609,
+      "recall_macro": 0.8223637701057367,
+      "f1_macro": 0.8278924896846552,
+      "roc_auc_ovr_macro": 0.9424630883271986,
+      "train_time_sec": 10.328899145126343
+    },
+    "Random Forest": {
+      "accuracy": 0.9584,
+      "precision_macro": 0.9562707564964091,
+      "recall_macro": 0.9498137305339016,
+      "f1_macro": 0.9529551499462882,
+      "roc_auc_ovr_macro": 0.9731832230022809,
+      "train_time_sec": 150.51206469535828
+    },
+    "XGBoost": {
+      "accuracy": 0.9605666666666667,
+      "precision_macro": 0.9600335895482291,
+      "recall_macro": 0.9507829998249343,
+      "f1_macro": 0.9552433798879575,
+      "roc_auc_ovr_macro": 0.9733270445389763,
+      "train_time_sec": 39.40072512626648
+    },
+    "Decision Tree": {
+      "accuracy": 0.95575,
+      "precision_macro": 0.9521875994416624,
+      "recall_macro": 0.947429896851884,
+      "f1_macro": 0.949756208353088,
+      "roc_auc_ovr_macro": 0.9681708387615992,
+      "train_time_sec": 25.722251415252686
+    }
+  },
+  "test_metrics": {
+    "accuracy": 0.96145,
+    "precision_macro": 0.9605919935803614,
+    "recall_macro": 0.9518410791350517,
+    "f1_macro": 0.9560623138628525,
+    "roc_auc_ovr_macro": 0.9741799774743893
+  }
+}

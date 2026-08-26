@@ -1,0 +1,80 @@
+{
+  "best_model_name": "XGBoost",
+  "feature_columns": [
+    "gender",
+    "marital_status",
+    "education",
+    "employment_type",
+    "company_type",
+    "house_type",
+    "existing_loans",
+    "emi_scenario",
+    "age",
+    "monthly_salary",
+    "years_of_employment",
+    "monthly_rent",
+    "family_size",
+    "dependents",
+    "school_fees",
+    "college_fees",
+    "travel_expenses",
+    "groceries_utilities",
+    "other_monthly_expenses",
+    "current_emi_amount",
+    "credit_score",
+    "bank_balance",
+    "emergency_fund",
+    "requested_amount",
+    "requested_tenure",
+    "requested_emi",
+    "total_monthly_expenses",
+    "total_monthly_obligations",
+    "disposable_income",
+    "debt_to_income_ratio",
+    "expense_to_income_ratio",
+    "affordability_ratio",
+    "requested_to_income_ratio",
+    "requested_burden_ratio",
+    "employment_stability_score",
+    "income_per_dependent",
+    "emergency_fund_months",
+    "savings_to_income_ratio",
+    "credit_score_norm"
+  ],
+  "validation_metrics": {
+    "Linear Regression": {
+      "rmse": 2477.2275180779784,
+      "mae": 1470.5690242379085,
+      "r2": 0.9634582339758577,
+      "mape": 56.76746184941693,
+      "train_time_sec": 2.5622453689575195
+    },
+    "Random Forest": {
+      "rmse": 1008.2265433357879,
+      "mae": 563.4768839713842,
+      "r2": 0.9939469537152653,
+      "mape": 3.8843925980740637,
+      "train_time_sec": 853.1309657096863
+    },
+    "XGBoost": {
+      "rmse": 978.4320127099867,
+      "mae": 557.4923241781565,
+      "r2": 0.994299419951668,
+      "mape": 4.564208623025532,
+      "train_time_sec": 14.87196397781372
+    },
+    "Decision Tree": {
+      "rmse": 1151.6901026904077,
+      "mae": 638.7557438285232,
+      "r2": 0.9921017839309919,
+      "mape": 4.416658093691361,
+      "train_time_sec": 17.715059995651245
+    }
+  },
+  "test_metrics": {
+    "rmse": 971.8353608239431,
+    "mae": 553.8150160661215,
+    "r2": 0.9944106502890875,
+    "mape": 4.522864910702903
+  }
+}

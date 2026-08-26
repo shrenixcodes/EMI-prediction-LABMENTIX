@@ -1,0 +1,47 @@
+{
+  "quality_before_cleaning": {
+    "n_rows": 400400,
+    "n_columns": 28,
+    "duplicate_rows": 400,
+    "missing_by_column": {
+      "years_of_employment": 1666,
+      "company_type": 1598,
+      "bank_balance": 1588,
+      "emergency_fund": 1563
+    },
+    "missing_pct_overall": 0.0572
+  },
+  "cleaning_actions": {
+    "duplicate_rows_removed": 400,
+    "numeric_columns_imputed": [
+      "years_of_employment",
+      "bank_balance",
+      "emergency_fund"
+    ],
+    "categorical_columns_imputed": [
+      "company_type"
+    ],
+    "out_of_range_values_clipped": 0,
+    "invalid_salary_rows_removed": 0,
+    "final_row_count": 400000
+  },
+  "quality_after_cleaning": {
+    "n_rows": 400000,
+    "n_columns": 28,
+    "duplicate_rows": 0,
+    "missing_by_column": {},
+    "missing_pct_overall": 0.0
+  },
+  "split_stats": {
+    "train_rows": 280000,
+    "val_rows": 60000,
+    "test_rows": 60000
+  },
+  "classification_target": "emi_eligibility",
+  "regression_target": "max_monthly_emi",
+  "class_balance": {
+    "Not_Eligible": 0.5126,
+    "High_Risk": 0.3225,
+    "Eligible": 0.165
+  }
+}

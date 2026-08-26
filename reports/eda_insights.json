@@ -1,0 +1,58 @@
+{
+  "eligibility_distribution": {
+    "Not_Eligible": 51.26,
+    "High_Risk": 32.25,
+    "Eligible": 16.5
+  },
+  "max_monthly_emi_stats": {
+    "count": 400000.0,
+    "mean": 12620.05,
+    "std": 12926.5,
+    "min": 500.0,
+    "25%": 1483.86,
+    "50%": 8867.07,
+    "75%": 18820.25,
+    "max": 50000.0
+  },
+  "eligibility_by_scenario_pct": {
+    "E-commerce Shopping EMI": {
+      "Eligible": 18.5,
+      "High_Risk": 35.94,
+      "Not_Eligible": 45.56
+    },
+    "Education EMI": {
+      "Eligible": 16.96,
+      "High_Risk": 32.57,
+      "Not_Eligible": 50.48
+    },
+    "Home Appliances EMI": {
+      "Eligible": 18.64,
+      "High_Risk": 36.0,
+      "Not_Eligible": 45.35
+    },
+    "Personal Loan EMI": {
+      "Eligible": 14.79,
+      "High_Risk": 29.53,
+      "Not_Eligible": 55.68
+    },
+    "Vehicle EMI": {
+      "Eligible": 13.59,
+      "High_Risk": 27.2,
+      "Not_Eligible": 59.21
+    }
+  },
+  "top_correlations_with_max_emi": {
+    "disposable_income": 0.972,
+    "affordability_ratio": 0.822,
+    "monthly_salary": 0.817,
+    "expense_to_income_ratio": -0.61,
+    "bank_balance": 0.537,
+    "emergency_fund": 0.468,
+    "credit_score": 0.375,
+    "requested_to_income_ratio": -0.373,
+    "debt_to_income_ratio": -0.338,
+    "requested_emi": 0.295,
+    "age": 0.023,
+    "years_of_employment": 0.02
+  }
+}
