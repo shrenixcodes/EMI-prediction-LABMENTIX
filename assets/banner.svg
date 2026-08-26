@@ -1,0 +1,63 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D47A1"/>
+      <stop offset="55%" stop-color="#1565C0"/>
+      <stop offset="100%" stop-color="#1E88E5"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="280" fill="url(#bg)"/>
+  <rect width="1200" height="280" fill="url(#glow)"/>
+
+  <!-- decorative grid lines -->
+  <g stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1">
+    <line x1="0" y1="70" x2="1200" y2="70"/>
+    <line x1="0" y1="210" x2="1200" y2="210"/>
+  </g>
+
+  <!-- decorative upward bars motif (right side) -->
+  <g fill="#FFFFFF" fill-opacity="0.12">
+    <rect x="980" y="170" width="26" height="60"/>
+    <rect x="1020" y="140" width="26" height="90"/>
+    <rect x="1060" y="100" width="26" height="130"/>
+    <rect x="1100" y="60"  width="26" height="170"/>
+  </g>
+  <g fill="#66BB6A">
+    <rect x="1100" y="60" width="26" height="12"/>
+    <rect x="1060" y="100" width="26" height="12"/>
+  </g>
+
+  <!-- card / rupee motif (left side) -->
+  <g transform="translate(70,95)">
+    <rect x="0" y="0" width="130" height="88" rx="14" fill="#FFFFFF" fill-opacity="0.14"/>
+    <rect x="0" y="0" width="130" height="88" rx="14" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="2"/>
+    <circle cx="65" cy="44" r="26" fill="#FFFFFF" fill-opacity="0.9"/>
+    <text x="65" y="54" font-family="Georgia, serif" font-size="30" font-weight="bold" fill="#0D47A1" text-anchor="middle">₹</text>
+  </g>
+
+  <text x="230" y="120" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="700" fill="#FFFFFF">EMIPredict AI</text>
+  <text x="230" y="160" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#E3F2FD">Intelligent Financial Risk Assessment Platform</text>
+
+  <!-- tag pills -->
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#0D47A1" font-weight="600">
+    <rect x="230" y="185" width="98" height="30" rx="15" fill="#FFFFFF"/>
+    <text x="279" y="205" text-anchor="middle">Python</text>
+
+    <rect x="338" y="185" width="112" height="30" rx="15" fill="#FFFFFF"/>
+    <text x="394" y="205" text-anchor="middle">XGBoost</text>
+
+    <rect x="460" y="185" width="102" height="30" rx="15" fill="#FFFFFF"/>
+    <text x="511" y="205" text-anchor="middle">MLflow</text>
+
+    <rect x="572" y="185" width="112" height="30" rx="15" fill="#FFFFFF"/>
+    <text x="628" y="205" text-anchor="middle">Streamlit</text>
+
+    <rect x="694" y="185" width="150" height="30" rx="15" fill="#FFFFFF"/>
+    <text x="769" y="205" text-anchor="middle">scikit-learn</text>
+  </g>
+</svg>
