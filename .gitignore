@@ -26,5 +26,6 @@ env/
 Thumbs.db
 .vscode/
 .idea/
+.claude/
 
 # Large trained artifacts are kept (models/*.pkl) — needed for the deployed app
